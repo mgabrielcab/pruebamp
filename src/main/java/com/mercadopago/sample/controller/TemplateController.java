@@ -14,7 +14,7 @@ public class TemplateController {
 
     @GetMapping
     public String renderMainPage(Model model) {
-        model.addAttribute("publicKey", mercadoPagoSamplePublicKey);
+        model.addAttribute("mppublicKey", mercadoPagoSamplePublicKey);
         return "index";
     }
 }

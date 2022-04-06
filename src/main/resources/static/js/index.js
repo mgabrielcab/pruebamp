@@ -1,4 +1,4 @@
-const publicKey = document.getElementById("publicKey").value;
+const publicKey = document.getElementById("mppublicKey").value;
 const mercadopago = new MercadoPago(publicKey);
 
 function loadCardForm() {
